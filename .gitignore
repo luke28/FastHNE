@@ -1,3 +1,6 @@
+*/.DS_Store
+*.swp
+Untitled*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -72,6 +75,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# PyCharm
+.idea/
+
 # pyenv
 .python-version
 
@@ -102,3 +108,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+tmp/
+data/
+res/
+log/
+#data/
+*.swp
+# os generate
+.DS_Store
+.DS_Store?
