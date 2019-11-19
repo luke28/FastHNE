@@ -8,9 +8,8 @@ import math
 import logging
 import time
 from datetime import datetime
-from Queue import Queue
+from queue import Queue
 from sklearn.preprocessing import MultiLabelBinarizer
-from memory_profiler import memory_usage
 import gc
 
 def dict_add(d, key, add):

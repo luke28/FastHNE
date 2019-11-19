@@ -16,8 +16,8 @@ num_nodes = 2314
 
 graph_path = os.path.join(DATA_PATH, "graph_hamilton")
 tree_path = os.path.join(DATA_PATH, "tree2_hamilton")
-save_path = os.path.join(RES_PATH, "embeddings.pkl")
+save_path = os.path.join(RES_PATH, "embeddings_hamilton.pkl")
 label_path = os.path.join(DATA_PATH, "flag_hamilton")
 
 metric_times = 3
-test_size = 0.9
+test_size = 0.1
